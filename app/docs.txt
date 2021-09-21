@@ -1,0 +1,14 @@
+Hier in diesem Projekt wird gezeigt wie man sich authentisiert. Also login und regisetr  komplett programmieren.
+Es wird bootstrap getrennt installiert.
+- Das Projekt wird mit :
+composer create-project laravel/laravel --prefer-dist laravel-bootstrap 
+ installiert und dann wird bootstrap wie folgt installiert.
+ - Man geht in das Projektverzeichnis und gibt folgenden Befehl:
+  composer require laravel/ui
+  If you just want to add bootstrap to an existing project, just run:
+
+    php artisan ui bootstrap
+    npm install
+    npm run dev
+ - Dann dann fügt man stylesheet wie folgt:
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
